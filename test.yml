@@ -1,0 +1,10 @@
+---
+# Test playbook for Ansible role cdelgehier.openio-repository
+
+- hosts: all
+  gather_facts: true
+  become: true
+
+  roles:
+    - role: role_under_test
+...
